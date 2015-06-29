@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>Forms 2</title>
+	</head>
+	<body>
+	    <form>
+	    <h2>Order Forms</h2>
+	    <fieldset>
+	    <legend>Customer information:</legend>
+		<label><br>Customer name: <input type="text" name="Customer name:" required></label><br>
+		<label><br>Mobile number: <input type="number" name="Mobile number:" required></label><br>
+		<label><br>E-mail address: <input type="email" name="E-mail address"></label><br>
+		</fieldset>
+		<fieldset>
+	    <legend>Pizza Options:</legend>
+		<label><br>Flavor
+        <select name="Flavor">
+        <option value="Hawaiian">Hawaiian</option>
+        <option>Double Cheese</option>
+        <option>Margherita</option>
+        <option>Barbecue Bacon Cheeseburger</option>
+        <option>Pepperoni and Cheese</option>
+        </select></label><br>
+		<br>Size:<br>
+		<label><input type="radio" name="Size:" value="Small">Small</label>
+		<label><input type="radio" name="Size:" value="Medium">Medium</label>
+		<label><input type="radio" name="Size:" value="Large">Large</label>
+		<br>
+		<br>Extra Toppings<br>
+		<label><input type="checkbox" name="Extra Toppings:" value="Bacon">Bacon</label>
+        <label><input type="checkbox" name="Extra Toppings:" value="Cheese">Cheese</label>
+        <label><input type="checkbox" name="Extra Toppings:" value="Onion">Onion</label>
+		<label><input type="checkbox" name="Extra Toppings:" value="Mushroom">Mushroom</label>
+		</fieldset>
+		<fieldset>
+	    <legend>Delivery Details:</legend>
+	    <label><br>Delivery date: <input type="date" name="Delivery date:"></label><br>
+	    <label><br>Preferred delivery time: <input type="time" name="Preferred delivery time:" required></label><br>
+	    <label><br>Delivery address: <textarea rows="5" cols="75" required></textarea></label>
+	    <br>
+		<button type="reset">Reset</button>
+		<button type="submit">Submit Order</button>
+		</form>
+	</body>
+</html>
