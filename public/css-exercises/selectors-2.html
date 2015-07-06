@@ -3,6 +3,15 @@
     <head>
         <title>CMSC 2 CSS Exercise</title>
         <style>
+            h1 { 
+                text-align:center;
+            }
+            h1: :first-letter;
+                type:upper-alpha;
+            }
+            h4 {
+                text-align:center;
+            }
             body {
                 font-family:Century Gothic;
                 margin-right:100px;
@@ -10,30 +19,39 @@
             }
             p {
                 text-align: justify;
-                margin-left:20px;
+                text-indent:20px;
+            }
+            a:link {
+            }
+            a:visited {
             }
             a:hover {
                 color:#0099CC; 
                 text-decoration: underline;
-            {
+            }
+            a:active {
+            }
             img {
-                size:500 x 350px;
-                margin-left:20px;
-            }
-            }
-            table{
                 width:500px;
-                border:1px black;
-                border-style:solid;
+                height:350px;
+                margin-left:20px;
+                float:right;
             }
-            table, th {
-                background-color:#B2DFEE;
+            }
+            table, th, td {
+                width:500px;
+                border: 1px solid black;
+            }
+            tr.even th, td {
+                background-color:#0099CC;
                 color:white;
             }
-            table, td {
-                background-color:#0099CC
+            tr.odd td {
+                background-color:#B2DFEE;
                 color:black;
             }
+            ol {
+                list-style-type:lower-alpha;
         </style>
 </head>
 <body>
