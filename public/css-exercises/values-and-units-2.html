@@ -4,30 +4,37 @@
 <title>CMSC 2 CSS Exercise</title>
 <style>
     body {
-        background-color:#888888; 
+        background-color:#888888;
+        text-align:center;
     }
     h1   {
         line-height:10px; } 
     h3   { 
         line-height:10px; 
         color:gray; }
-    p    {
-        width:30%;
+    p {
         padding-left:10px;
-        padding-right:10px; 
+        padding-right:10px
+        width:30%;
     }
-    p.first {
-        size:24px;
+    #first {
+        font-size:24px;
     }
-    p.third {
-        line-height:20/72in;
+    #third {
+        line-height:30px;
     }
-    p.fourth {
-        line-height:20/72in;
+    #fourth {
+        line-height:30px;
     }
-    p.fifth.strong{
-        vertical-align:sub;
+    .sub{
+        position: relative;
+        bottom:-1ex;
+        color:red;
         }
+    #rectangle{
+    width:100px;
+    height:100px;
+    background:white;
 </style>
 </head>
 <body>
